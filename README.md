@@ -1,45 +1,15 @@
-# 🌦️ Weather App
+# ☁️ Weather App using Google Cloud Functions and OpenWeather API
 
-A simple, responsive weather web application built using **HTML**, **CSS**, and **JavaScript**. The app allows users to enter a city name and fetches real-time weather data using the **OpenWeatherMap API**.
-
----
-
-## 🔧 Features
-
-- Search weather by city name
-- Real-time temperature, weather description, humidity, and wind speed
-- Clean and responsive user interface
-- Built with vanilla JS (no frameworks)
+This project is a simple weather forecast web app that uses:
+- 🌐 A **frontend** written in vanilla JavaScript, HTML, and CSS
+- ☁️ A **backend** hosted on **Google Cloud Functions (Gen 2)**
+- 🌍 Weather data from the **OpenWeatherMap API**
 
 ---
 
-## 📸 Preview
+## 🚀 Live Backend Endpoint
 
-![Screenshot](screenshot.png) <!-- Optional: Add your own screenshot image in the repo -->
+**Google Cloud Function (HTTP Trigger):**
 
----
 
-## 🚀 Live Demo
-
-[Click to view live app](https://your-PolokoB.github.io/weather-app/)  
-_(Replace with your actual GitHub Pages URL)_
-
----
-
-## 🛠️ Technologies Used
-
-- HTML5  
-- CSS3  
-- JavaScript (ES6)  
-- [OpenWeatherMap API](https://openweathermap.org/api)
-
----
-
-## ⚙️ How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/weather-app.git
-   cd weather-app
-
-# weatherapp
+https://us-central1-etl-project-462412.cloudfunctions.net/get_weather
