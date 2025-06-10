@@ -12,4 +12,5 @@ This project is a simple weather forecast web app that uses:
 **Google Cloud Function (HTTP Trigger):**
 
 
-https://us-central1-etl-project-462412.cloudfunctions.net/get_weather
+
+https://us-central1-etl-project-462412.cloudfunctions.net/get_weather?city=johannesburg
